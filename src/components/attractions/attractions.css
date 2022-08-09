@@ -1,0 +1,54 @@
+.er__attractions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 133px;
+    background: #00003D;
+    padding: 2rem 8rem;
+}
+.er__attractions p{
+    font-family: dosis-bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    text-align: center;
+    color: #FBDA61;
+}
+.er__attractions span{
+    color: #FEFDFE;
+}
+@media screen and (max-width: 1100px) {
+    .er__attractions{
+        height: 113px;
+    }
+    .er__attractions p{
+        font-size: 21px;
+    }
+    .er__attractions span{
+        color: #FEFDFE;
+    }
+}
+@media screen and (max-width: 800px) {
+    .er__attractions{
+        height: 93px;
+        padding: 2rem 7rem;
+    }
+    .er__attractions p{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .er__attractions{
+        height: 73px;
+        padding: 2rem;
+    }
+    .er__attractions p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .er__attractions p{
+        font-size: 13px;
+    }
+}

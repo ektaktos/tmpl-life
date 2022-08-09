@@ -1,0 +1,84 @@
+.life__herotext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 7rem 6rem;
+}
+.life__herotext h1{
+    font-family: dosis-extrabold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 80px;
+    text-transform: uppercase;
+    background: linear-gradient(257.86deg, rgba(17, 208, 78, 0.8) 8.85%, #0B8432 88.93%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.one{
+    width: 90%;
+    margin-right: 1rem;
+}
+/* .aboutone{
+    background: linear-gradient(257.86deg, rgba(0, 0, 0, 0.8) 8.85%, #000 88.93%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+.life__herotext p{
+    font-family: nunito-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+}
+.life__herotext-div{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1100px) {
+    .life__herotext h1{
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .life__herotext p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .life__herotext h1{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .life__herotext p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .life__herotext{
+        padding: 7rem 2rem;
+    }
+    .life__herotext h1{
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .life__herotext{
+        padding: 7rem 2rem;
+    }
+    .life__herotext h1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .life__herotext p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+}

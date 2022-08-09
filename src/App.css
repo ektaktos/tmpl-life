@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #000024;
+}
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+@font-face{
+  font-family: nunito-light;
+  src:url("fonts/nunito-light-webfont.woff") format("woff")
+}
+@font-face{
+  font-family: nunito-regular;
+  src:url("fonts/nunito-regular-webfont.woff") format("woff")
+}
+@font-face{
+  font-family: nunito-medium;
+  src:url("fonts/nunito-medium-webfont.woff") format("woff")
+}
+@font-face{
+  font-family: nunito-semibold;
+  src:url("fonts/nunito-semibold-webfont.woff") format("woff")
+}
+@font-face{
+  font-family: nunito-bold;
+  src:url("fonts/nunito-bold-webfont.woff") format("woff")
+}
+@font-face{
+  font-family: nunito-extrabold;
+  src:url("fonts/nunito-extrabold-webfont.woff") format("woff")
+}
+
+
+@font-face{
+  font-family: dosis-light;
+  src:url("fonts/dosis-light-webfont.woff") format("woff")
+}
+@font-face{
+  font-family: dosis-regular;
+  src:url("fonts/dosis-regular-webfont.woff") format("woff")
+}
+@font-face{
+  font-family: dosis-medium;
+  src:url("fonts/dosis-medium-webfont.woff") format("woff")
+}
+@font-face{
+  font-family: dosis-semibold;
+  src:url("fonts/dosis-semibold-webfont.woff") format("woff")
+}
+@font-face{
+  font-family: dosis-bold;
+  src:url("fonts/dosis-bold-webfont.woff") format("woff")
+}
+@font-face{
+  font-family: dosis-extrabold;
+  src:url("fonts/dosis-extrabold-webfont.woff") format("woff")
+}
+/* p, a, .link{
+  font-family: nunito;
+} */

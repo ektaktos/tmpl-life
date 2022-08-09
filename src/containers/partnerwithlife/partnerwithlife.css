@@ -1,0 +1,56 @@
+.er__partnerwithlife{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem 6rem 4rem;
+    
+}
+.er__partnerwithlife h1{
+    font-family: dosis-extrabold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 77px;
+    line-height: 135px;
+    text-align: center;
+    color: #FEFDFE;
+    
+}
+.sponsor-vendor{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .er__partnerwithlife h1{
+        font-size: 57px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .er__partnerwithlife{
+        padding: 4rem 2rem;
+    }
+    .er__partnerwithlife h1{
+        font-size: 40px;
+    }
+    .sponsor-vendor{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .er__partnerwithlife h1{
+        font-size: 31px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .er__partnerwithlife h1{
+        font-size: 25px;
+    }
+}

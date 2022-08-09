@@ -1,0 +1,98 @@
+.life__countdown{
+    background: rgba(255, 255, 255, 0.91);
+    border-radius: 10px;
+    width: 1256px;
+    height: 416px;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.life__countdown-content{
+    margin-bottom: 1rem;
+}
+.life__countdown-content p{
+    font-family: nunito-medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333
+}
+.life__countdown-content h3{
+    font-family: dosis-extrabold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 70px;
+    color: #333333
+}
+.life__countdown-count{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1100px){
+    .life__countdown{
+        width: 800px;
+        height: 400px;
+        padding: 2rem 4rem;
+    }
+    .life__countdown-content p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .life__countdown-content h3{
+        font-size: 40px;
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .life__countdown{
+        width: 600px;
+        height: 330px;
+        padding: 2rem 1.5rem;
+    }
+    .life__countdown-content p{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .life__countdown-content h3{
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .life__countdown{
+        width: 350px;
+        height: 330px;
+        padding: 1rem 1rem;
+    }
+    .life__countdown-content p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .life__countdown-content h3{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .life__countdown{
+        width: 320px;
+        height: 330px;
+    }
+    .life__countdown-content p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .life__countdown-content h3{
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,26 @@
+.er__activitiesbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .er__activitiesbody{
+        padding: 4rem 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .er__activitiesbody{
+        padding: 3rem 2rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .er__activitiesbody{
+        padding: 2rem;
+    }
+}

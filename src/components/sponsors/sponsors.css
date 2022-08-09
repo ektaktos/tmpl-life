@@ -1,0 +1,141 @@
+.er__sponsors {
+    padding: 3rem 2rem;
+    width: 500px;
+    height: 550px;
+    background: #00003D;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border-top: 1px solid #F9175B;
+    position: relative;
+}
+
+.er__sponsors h4 {
+    position: absolute;
+    top: 1em;
+    font-family: dosis-bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: center;
+    color: #FEFDFE;
+}
+
+.er__sponsors-list {
+    margin-top: -2rem;
+    margin-bottom: 0rem;
+    position: absolute;
+    top: 3.5em;
+    text-align: left;
+    padding-left: 3.7em;
+}
+
+.er__sponsors-list p {
+    font-family: dosis-light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.linkk {
+    background: #F9175B;
+    border-radius: 30px;
+    padding: 10px 58px;
+    font-family: nunito-semibold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 3em;
+}
+
+@media screen and (max-width: 1100px) {
+    .er__sponsors {
+        padding: 2rem;
+        width: 450px;
+        height: 500px;
+    }
+    .er__sponsors h4 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .er__sponsors-list {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .er__sponsors-list p {
+        font-size: 18px;
+        line-height: 48px;
+    }
+    .linkk {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .er__sponsors {
+        padding: 2rem;
+        width: 450px;
+        height: 500px;
+        margin-bottom: 2rem;
+        margin-right: 0rem;
+    }
+    .er__sponsors-list p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .er__sponsors {
+        padding: 2rem 1rem;
+        width: 350px;
+        height: 450px;
+    }
+    .er__sponsors h4 {
+        font-size: 21px;
+    }
+    .er__sponsors-list {
+        margin-top: 0.7rem;
+        margin-bottom: 1rem;
+    }
+    .er__sponsors-list p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .linkk {
+        font-size: 13px;
+        padding: 8px 48px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .er__sponsors {
+        padding: 1.5rem 1rem;
+        width: 320px;
+        height: 450px;
+    }
+    .er__sponsors h4 {
+        font-size: 18px;
+    }
+    .er__sponsors-list {
+        margin-top: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .er__sponsors-list p {
+        font-size: 13px;
+        line-height: 33px;
+    }
+    .linkk {
+        font-size: 13px;
+        padding: 5px 28px;
+    }
+}

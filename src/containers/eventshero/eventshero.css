@@ -1,0 +1,97 @@
+.er__eventshero {
+    /* background: url(../../assets/wparty.jpg), url(../../assets/wiz.jpg), url(../../assets/wedding.jpg), url(../../assets/swim.jpg); */
+    background: url(../../assets/events.jpg), rgba(38, 38, 38, 0.74);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 100vw;
+    height: 782px;
+}
+
+
+/* .er__eventshero-inner{
+    position: relative;
+}
+.collage{
+    display: flex;
+}
+.text-on-collage{
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 25%;
+    display: flex;
+    justify-content: center;
+}
+.collage img{
+    width: 25vw;
+    height: 685px;
+} */
+
+.er__eventshero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 6rem;
+}
+
+.er__eventshero-inner h1 {
+    font-family: dosis-extrabold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 87px;
+    line-height: 135px;
+    text-align: center;
+    color: #FEFDFE;
+    width: 40%;
+    margin-top: 9rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .er__eventshero {
+        height: 702px;
+    }
+    .er__eventshero-inner h1 {
+        font-size: 67px;
+        line-height: 125px;
+        width: 50%;
+        margin-top: 8.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .er__eventshero {
+        height: 652px;
+    }
+    .er__eventshero-inner h1 {
+        font-size: 47px;
+        line-height: 90px;
+        width: 50%;
+        margin-top: 9rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .er__eventshero {
+        height: 600px;
+    }
+    .er__eventshero-inner {
+        padding: 4rem 3rem;
+    }
+    .er__eventshero-inner h1 {
+        font-size: 30px;
+        line-height: 70px;
+        width: 55%;
+        margin-top: 8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .er__eventshero-inner {
+        padding: 4rem 2rem;
+    }
+    .er__eventshero-inner h1 {
+        font-size: 25px;
+        line-height: 50px;
+    }
+}

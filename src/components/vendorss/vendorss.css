@@ -1,0 +1,175 @@
+.er__sponsors {
+    padding: 3rem 2rem;
+    width: 500px;
+    height: 1300px;
+    background: #00003D;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border-top: 1px solid #F9175B;
+}
+
+.er__sponsors h4 {
+    font-family: dosis-bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: center;
+    color: #FEFDFE;
+}
+
+.er__sponsors-list {
+    margin-top: 20rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start!important;
+    justify-content: center;
+}
+
+.er__sponsors-list2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: flex-start!important;
+    justify-content: center;
+}
+
+.er__sponsors .head {
+    padding-top: 2em;
+}
+
+.er__sponsors .bottom {
+    padding-bottom: 3em;
+}
+
+.er__sponsors p {
+    font-family: dosis-light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.er__sponsors .last {
+    position: absolute;
+    bottom: 10em;
+    width: 80%;
+}
+
+.er__sponsors .last2 {
+    position: absolute;
+    bottom: 10em;
+    width: 80%;
+}
+
+.er__sponsors-list ul {
+    margin-right: 2em;
+}
+
+.er__sponsors-list ul>li::marker {
+    font-size: 1.5em;
+}
+
+.er__sponsors-list ul li {
+    font-family: dosis-light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 42px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.linkk {
+    background: #F9175B;
+    border-radius: 30px;
+    padding: 10px 58px;
+    font-family: nunito-semibold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1100px) {}
+
+@media screen and (max-width: 800px) {
+    .er__sponsors {
+        padding: 2rem;
+        width: 450px;
+        height: 1300px;
+        margin-bottom: 2rem;
+        margin-right: 0rem;
+    }
+    .er__sponsors-list p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .er__sponsors {
+        padding: 2rem 1rem;
+        width: 350px;
+        height: 1700px;
+    }
+    .er__sponsors h4 {
+        font-size: 21px;
+    }
+    .er__sponsors-list {
+        margin-top: 20rem;
+        margin-bottom: 1rem;
+    }
+    .er__sponsors-list p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .linkk {
+        font-size: 13px;
+        padding: 8px 48px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .er__sponsors {
+        padding: 1.5rem 1rem;
+        width: 320px;
+        height: 1700px;
+    }
+    .er__sponsors h4 {
+        font-size: 18px;
+    }
+    .er__sponsors-list {
+        margin-top: 25rem;
+        margin-bottom: 1rem;
+    }
+    .er__sponsors-list p {
+        font-size: 13px;
+        line-height: 33px;
+    }
+    .linkk {
+        font-size: 13px;
+        padding: 5px 28px;
+    }
+    .er__sponsors .last {
+        position: absolute;
+        bottom: 20em;
+        width: 80%;
+    }
+    .er__sponsors .last2 {
+        position: absolute;
+        bottom: 6em;
+        width: 80%;
+    }
+}

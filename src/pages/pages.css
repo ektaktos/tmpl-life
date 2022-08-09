@@ -1,0 +1,80 @@
+body {
+    background: #000024;
+    overflow-x: hidden;
+}
+
+.dayornight {
+    padding: 2rem 24rem;
+}
+
+.dayornight .er__daynight {
+    padding-right: 2rem;
+}
+
+.nightorday {
+    padding: 2rem 24rem;
+}
+
+.nightorday .right {
+    background: #00003D;
+}
+
+.nightorday .right h5 {
+    color: #FEFDFE;
+}
+
+.nightorday .er__daynight {
+    flex-direction: row-reverse;
+    padding-left: 3rem;
+}
+
+.night_activities .er__activitiesbody .er__activities {
+    background: #00003D;
+    border: 0.5px solid rgba(12, 151, 57, 0.1);
+    box-shadow: 0px 4px 40px rgba(89, 89, 89, 0.1);
+    /* border-radius: 20px;
+    padding: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem; */
+}
+
+.night_activities .er__activitiesbody .er__activities-content h5,
+.night_activities .er__activitiesbody .er__activities-content p,
+.night_activities .er__activitiesbody .er__activities-more .view {
+    color: #FEFDFE;
+}
+
+.night_activities .er__activitiesbody .er__activities-more .arrow {
+    color: #F9175B;
+}
+
+@media screen and (max-width: 1100px) {
+    .dayornight,
+    .nightorday {
+        padding: 2rem 14rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .dayornight,
+    .nightorday {
+        padding: 2rem 9rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dayornight,
+    .nightorday {
+        padding: 2rem 5rem;
+    }
+    .nightorday .er__daynight {
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .dayornight,
+    .nightorday {
+        padding: 2rem 3rem;
+    }
+}
