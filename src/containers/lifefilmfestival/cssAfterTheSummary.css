@@ -1,0 +1,351 @@
+
+/* Helper Classes -> START */
+.primary_color {
+    color: #F9175B;
+}
+.white_color {
+    color: white;
+}
+.ySpace {
+    height: 20px;
+}
+.xSpace {
+    width: 20px;
+}
+.lff_button{
+    width: 35%;
+    border: none;
+    font-size: 16px;
+    margin-top: 2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 22px;
+    padding: 10px 28px;
+    font-style: normal;
+    text-align: center;
+    border-radius: 30px;
+    background: #F9175B;
+    font-family: nunito-semibold;
+}
+/* Helper Classes -> END */
+
+
+
+
+.lff_lifeFilmFestival {}
+
+.lff_hero_section {
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 90px;
+    position: relative;
+    background-size: 100% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/rolling_tape.png');
+}
+
+.lff_hero_section .lff_icon {
+    top: 31px;
+    left: 81px;
+    position: absolute;
+}
+.lff_hero_section .lff_icon img {
+    width: 94px;
+    height: 117px;
+}
+
+.lff_hero_section .lff_hero_content {
+    top: 50%;
+    left: 65%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.lff_hero_section .lff_hero_content p{
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 147px;
+    font-family: dosis-extrabold;
+}
+
+.lff_summary{
+    display: flex;
+    padding: 0 34px;
+    margin-bottom: 80px;
+}
+.lff_summary::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.lff_summary .lff_left,
+.lff_summary .lff_right{
+    float: left;
+}
+.lff_summary .lff_left{
+    width: 40%;
+    padding: 0px 50px;
+}
+.lff_summary .lff_left .lff_img_card.selfie,
+.lff_summary .lff_left .lff_img_card.vblog{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    background-size: 100% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.lff_summary .lff_left .lff_img_card.selfie{
+    background-image: url('../../assets/selfie.png');
+    
+}
+.lff_summary .lff_left .lff_img_card.vblog{
+    background-image: url('../../assets/vblog.png');
+}
+.lff_summary .lff_right{
+    width: 60%;
+    padding: 73px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 25px;
+    line-height: 35px;
+    font-family: nunito-semibold;
+    border-top: 3px #F9175B solid;
+    background: rgba(0, 0, 61, 1);
+}
+
+
+.lff_banner_section {
+    width: 100vw;
+    height: 40vh;
+    position: relative;
+    background-size: 100% 100%;
+    margin-bottom: 80px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/art.png');
+}
+.lff_banner_section .lff_submission_card{
+    top: 50%;
+    left: 50%;
+    width: 70vw;
+    padding: 56px;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 39px;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    color: rgba(51, 51, 51, 1);
+    font-family: nunito-semibold;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.lff_dotted_border{
+    width: 70vw;
+    margin: 0px auto;
+    padding: 27px 0px;
+    text-align: center;
+    margin-bottom: 90px;
+    border-radius: 15px;
+    font-family: nunito-semibold;
+    color: rgba(254, 253, 254, 1);
+    border: 1px rgba(254, 253, 254, 0.47) dashed;
+}
+.lff_dotted_border .lff_dotted_border_title{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 53.06px;
+}
+.lff_dotted_border .lff_dotted_border_content{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32.22px;
+}
+
+
+.lff_participation_section{
+    margin-bottom: 40px;
+}
+.lff_participation_section .lff_participation_header{
+    font-size: 31px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 58.75px;
+    font-family: nunito-semibold;
+}
+.lff_participation_section .lff_row{
+    width: 80vw;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15vw;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    
+}
+
+.lff_participation_section .lff_row .lff_row_spacer{
+    width: 25vw;
+}
+
+.lff_participation_section .lff_num_card{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    position: relative;
+    border-radius: 15px;
+    padding: 39px 37px 68px 34px;
+    font-family: nunito-semibold;
+    background: rgba(0, 0, 61, 1);
+    border-top: 3px #F9175B solid;
+    color: rgba(254, 253, 254, 1);
+}
+.lff_participation_section .lff_num_card .lff_num_card_content{
+/* position: absolute; */
+}
+.lff_participation_section .lff_num_card .lff_num_card_content.lff_divider{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.lff_participation_section .lff_num_card .lff_num_card_content.lff_divider .lff_left{
+    padding-right: 50px;
+}
+.lff_participation_section .lff_num_card .lff_num_card_content.lff_divider .lff_middle{
+    width: 5px;
+    margin-right: 120px;
+    background-color:rgba(254, 253, 254, 1);
+}
+
+.lff_participation_section .lff_num_card .lff_num_card_num{
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
+}
+.lff_participation_section .lff_num_card .lff_num_card_num img{
+    width: 100px;
+}
+
+.lff_regiter_footer {
+    display: flex;
+    padding: 0 100px;
+    padding-top: 30px;
+    justify-content: space-between;
+    position: relative;
+    background-color:#0f0e1344;
+    background-image: 
+    /* radial-gradient(at 50% 10%,rgba(12, 151, 57, 0.1), transparent 50%), 
+    radial-gradient(at 70% 100%, hsl(240, 100%, 12%), transparent 100%);  */
+
+
+    radial-gradient(at 50% 10%,#0f0e1357, transparent 90%), 
+    radial-gradient(at 70% 100%, hsl(240, 100%, 12%), transparent 80%); 
+}
+
+.lff_regiter_footer .lff_register_left_content {
+    font-size: 21px;
+    line-height: 39.8px;
+    font-weight: 700;
+    padding:0 50px;
+    border-radius: 100%;
+    color: rgba(254, 253, 254, 1);
+}
+.lff_regiter_footer .lff_register_right_content {
+    padding: 0 200px;
+    border-radius: 100%;
+}
+.lff_regiter_footer .lff_register_right_content button{
+    width: 200px;
+}
+
+
+/* RESPONSIVENESS STARTS HERE */
+@media screen and (max-width: 890px) {
+    /* body{
+        background-color: red !important;
+    } */
+    .lff_hero_section .lff_hero_content p{
+        font-size: 80px;
+        font-weight: 800;
+        line-height: 107px;
+    }
+    .lff_summary .lff_left{
+        padding: 0px 20px;
+    }
+    .lff_summary .lff_right{
+        padding: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .lff_banner_section .lff_submission_card{
+        width: 75vw;
+        padding: 30px 10px; 
+        font-size: 17px;
+        font-weight: thin;
+        line-height: 29px;
+    }
+    .lff_dotted_border{
+        width: 75vw;
+    }
+    .lff_dotted_border .lff_dotted_border_title{
+        font-size: 25px;
+    }
+    .lff_dotted_border .lff_dotted_border_content{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.22px;
+    }
+    /* UI Distortion is coming from the participation section */
+    .lff_participation_section .lff_row{
+        width: 100vw;
+        
+        /* 
+            Here is one of the culprits, formally measured in vw, now changed to px
+            Remember to turn to single column on smaller screen sizes
+        */
+        /* padding: 0 20px; */
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+    .lff_participation_section .lff_num_card{
+        line-height: 32px;
+    }
+    .lff_participation_section .lff_num_card .lff_num_card_content.lff_divider .lff_left{
+        padding-right: 20px;
+    }
+    .lff_participation_section .lff_num_card .lff_num_card_content.lff_divider .lff_middle{
+        margin-right: 40px;
+    }
+    .lff_participation_section .lff_num_card .lff_num_card_num img{
+        width: 90px;
+    }
+    .lff_regiter_footer {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .lff_regiter_footer .lff_register_left_content {
+        font-size: 18px;
+        line-height: 28px;
+        padding:0 20px;
+    }
+    .lff_regiter_footer .lff_register_right_content {
+        padding:0 20px;
+    }
+    
+}
+
+/* SCREEN CAP AT 474px */
+@media screen and (max-width: 474px) {
+    .lff_hero_section .lff_hero_content {
+        left: 50%;
+    }
+    .lff_hero_section .lff_hero_content p{
+        font-size: 40px;
+        line-height: 57px;
+    }
+}
+/* RESPONSIVENESS ENDS HERE */

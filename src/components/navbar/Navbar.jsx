@@ -15,6 +15,7 @@ const Menu = () => (
         <p><Link className='link' to="/partner">Partner</Link></p>
         <p><Link className='link' to="/tickets">Tickets</Link></p>
         <p><Link className='link' to="/contactus">Contact</Link></p>
+        <p><Link className='link' to="/lifefilmfestival">Life Film Festival</Link></p>
         {/* <p><a href="#blog">Blog</a></p> */}
     </>
 )
