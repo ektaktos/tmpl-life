@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Home, About, Eventsday, Eventsnight, Tickets, Partner, Contactus } from "./pages"
+import { Home, About, Eventsday, Eventsnight, Tickets, Partner, Contactus, LifeFilmFestival } from "./pages"
 import "./App.css"
 
 const App = () => {
@@ -15,6 +15,7 @@ const App = () => {
                     <Route exact path="/tickets" element={<Tickets />}/>
                     <Route exact path="/partner" element={<Partner />}/>
                     <Route exact path="/contactus" element={<Contactus />}/>
+                    <Route exact path="/lifefilmfestival" element={<LifeFilmFestival />}/>
                 </Routes>
             </Router>
         </div>
